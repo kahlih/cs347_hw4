@@ -1,6 +1,9 @@
+--Followed format of example .ddl4 class file
+
 DROP VIEW sim_manager;
 DROP VIEW sim_employee;
 
+-- EMPLOYEE VIEW CREATED
 CREATE VIEW sim_employee AS
   SELECT *
   FROM sim_person
@@ -48,6 +51,7 @@ BEGIN
 END;
 /
 
+-- MANAGER VIEW CREATED
 CREATE VIEW sim_manager AS
   SELECT *
   FROM sim_person
