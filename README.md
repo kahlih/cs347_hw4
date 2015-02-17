@@ -2,7 +2,7 @@ Teammates:
 ~~~~~~~~~~
 
   ~ Kahli Holmes / Github: kahlih / EID: kh27624
-  ~ K.C. Hawes-Domingue / Github: HawesDomingue / EID:
+  ~ K.C. Hawes-Domingue / Github: HawesDomingue / EID: kh549
   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
