@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E353C8FA-423E-3DE5-3BE6-0FE15F87B370" name="SIM_p2p">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>E81AFA1B-2925-ADE6-025C-316C93F494E5</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="per_proj" id="420C35C6-E917-0940-4F3E-14A4DACADBE7">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>F861FAAB-35EA-7AD3-6462-A13A7380C24D</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_person_id" id="D7B8E797-64DD-64BA-F02F-B95C31D2FC91">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>16907B14-87D9-6CCC-D588-5807EE4C8CA7</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F685D3D-1864-6EE2-B10F-E387D31E2D96" referredColumn="67913C6A-B86A-00C7-832E-F4EE5630A064"/>
+</associations>
+</Column>
+<Column name="SIM_project_project_id" id="2AB9A330-5C4D-5E78-406B-53560A5D5441">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>E152F089-5F7C-E889-6700-1DE3E11802CF</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A518968-CA7F-FE60-DD80-E30FAC6F9863" referredColumn="88955890-9A50-0E6E-0D65-58D8D8A1E144"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA9CE723-64E9-AEC7-B311-0A3579104AFC" name="SIM_p2p_PK">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>B36536FF-FFCE-445C-8DCC-61AA484076E2</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="420C35C6-E917-0940-4F3E-14A4DACADBE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46DA6A56-54A5-65EB-EAAD-924B972AFBC5" name="SIM_p2p_SIM_Person_FK">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:52 UTC</createdTime>
+<generatorID>7F808198-AEB6-E898-7EED-FA574D42FFF1</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7B8E797-64DD-64BA-F02F-B95C31D2FC91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F52FE2D6-EA4D-2F68-AC11-051C115BF586" name="SIM_p2p_SIM_project_FK">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:52 UTC</createdTime>
+<generatorID>5BB9C991-2628-147D-3BE6-220EF6651C4A</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AB9A330-5C4D-5E78-406B-53560A5D5441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

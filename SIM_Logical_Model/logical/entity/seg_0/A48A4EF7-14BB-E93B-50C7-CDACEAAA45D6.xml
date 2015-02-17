@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A48A4EF7-14BB-E93B-50C7-CDACEAAA45D6" name="SIM_Person">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:46:08 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="85871015-6C90-70C1-3248-0262FB6500F1">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:46:10 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="3AEC1D0F-1FF3-407A-3E32-AA56683A1021">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:46:30 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="name" id="9761C2EF-0DA3-E678-2575-8945A7771C29">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:48:21 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="C0F98068-35E5-0B13-29A7-2AE0453DC456">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:48:30 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="3AA9B945-A022-1F01-D265-6BB22ADAD41C">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:48:45 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="B83639A9-6FBE-1789-822F-00E61949FB1E">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:49:01 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="5E75976A-7E83-F454-A086-71CE21A07992">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:49:22 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="2D80311D-7F9D-7CBA-C93E-A2ECEED00BE3">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:49:34 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="36F3B39D-49C0-5B4D-241E-52EDF522FE90">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:49:45 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="96E38D19-B09E-90BD-C069-CB42E7A2B1B4">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:49:55 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="EDBB645C-1E67-36B1-E24A-5A47519B7409">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:50:06 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="88448793-2DBB-E3A6-704A-359D1CCEFC73">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:50:54 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="9EDDAAED-01B6-99C9-9333-EEBB12914B35">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:51:05 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="87F041CB-A1F7-D72F-F278-1DB38BDA62F0">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:51:14 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="A94A581E-D366-34F3-322E-23710B04AF75">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:51:25 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="62BE4DA8-F733-2E45-8923-3E2F74185651">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:51:35 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="2CA971F4-BBA6-2C7B-4333-CE68B0727B39">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:00:03 UTC</createdTime>
+<generatorID>88BBA6FC-7FD8-92F0-59F3-F784114EA380</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>83AB790D-10B8-0B67-B601-281DD1F0E2F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="71F0BD9E-2E53-C3D3-3E7B-3F670F51967B">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:01:35 UTC</createdTime>
+<generatorID>09383AB1-3F2E-CE65-E12D-DB737CC535F6</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>83AB790D-10B8-0B67-B601-281DD1F0E2F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2E4B304-BEFF-C0F6-A426-5BA05374CC7A" name="SIM_Person PK">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-16 23:46:29 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<engineerTo>
+<item key="7C57A152-0451-D227-E072-B146596E9817" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>85871015-6C90-70C1-3248-0262FB6500F1</newElementsIDs>
+<usedAttributes>
+<attributeRef>85871015-6C90-70C1-3248-0262FB6500F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

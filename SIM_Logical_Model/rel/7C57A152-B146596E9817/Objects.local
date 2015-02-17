@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0D488CB3-F8C3-24CB-BCE3-54CC8453CB0B" name="SIM_Person" seqName="seg_0"/>
+   <object objectType="Table" objectID="D9396E4E-D874-791E-CC1D-95F497E57CA7" name="SIM_dept" seqName="seg_0"/>
+   <object objectType="Table" objectID="E353C8FA-423E-3DE5-3BE6-0FE15F87B370" name="SIM_p2p" seqName="seg_0"/>
+   <object objectType="Table" objectID="2EE18585-5E52-620F-1236-D0B5F91207A6" name="SIM_project" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="30C2E66A-5559-0A9B-2272-E4F58D783390" name="SIM_Person_SIM_dept_FK" seqName="seg_0" containerID="0D488CB3-F8C3-24CB-BCE3-54CC8453CB0B" refContainerID="D9396E4E-D874-791E-CC1D-95F497E57CA7"/>
+   <object objectType="FKIndexAssociation" objectID="8A80DD93-F214-94ED-FF1E-D77EE71497DE" name="SIM_Person_SIM_dept_FKv1" seqName="seg_0" containerID="0D488CB3-F8C3-24CB-BCE3-54CC8453CB0B" refContainerID="D9396E4E-D874-791E-CC1D-95F497E57CA7"/>
+   <object objectType="FKIndexAssociation" objectID="54B55D05-80B9-2877-7449-2B77EC9BBFC3" name="SIM_dept_SIM_Person_FK" seqName="seg_0" containerID="D9396E4E-D874-791E-CC1D-95F497E57CA7" refContainerID="0D488CB3-F8C3-24CB-BCE3-54CC8453CB0B"/>
+   <object objectType="FKIndexAssociation" objectID="3F685D3D-1864-6EE2-B10F-E387D31E2D96" name="SIM_p2p_SIM_Person_FK" seqName="seg_0" containerID="E353C8FA-423E-3DE5-3BE6-0FE15F87B370" refContainerID="0D488CB3-F8C3-24CB-BCE3-54CC8453CB0B"/>
+   <object objectType="FKIndexAssociation" objectID="8A518968-CA7F-FE60-DD80-E30FAC6F9863" name="SIM_p2p_SIM_project_FK" seqName="seg_0" containerID="E353C8FA-423E-3DE5-3BE6-0FE15F87B370" refContainerID="2EE18585-5E52-620F-1236-D0B5F91207A6"/>
+   <object objectType="FKIndexAssociation" objectID="8AC3474A-952D-B539-F571-49FDCE5848D4" name="SIM_project_SIM_dept_FK" seqName="seg_0" containerID="2EE18585-5E52-620F-1236-D0B5F91207A6" refContainerID="D9396E4E-D874-791E-CC1D-95F497E57CA7"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

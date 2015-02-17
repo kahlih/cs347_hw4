@@ -1,0 +1,272 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D488CB3-F8C3-24CB-BCE3-54CC8453CB0B" name="SIM_Person">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>A48A4EF7-14BB-E93B-50C7-CDACEAAA45D6</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="67913C6A-B86A-00C7-832E-F4EE5630A064">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>85871015-6C90-70C1-3248-0262FB6500F1</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="10086C1A-7A62-403C-F446-9A63E75CE9CC">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>3AEC1D0F-1FF3-407A-3E32-AA56683A1021</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="74807F8B-29F9-3D84-749D-7FD89FA947FF">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>9761C2EF-0DA3-E678-2575-8945A7771C29</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="BA44142A-F7F3-C69A-EB23-E4726760D349">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>C0F98068-35E5-0B13-29A7-2AE0453DC456</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="2A351D91-18DB-7C35-0F2B-E4E60A6C52C4">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>3AA9B945-A022-1F01-D265-6BB22ADAD41C</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="A88DDD7B-A2CC-F201-FD77-8605E0393020">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>B83639A9-6FBE-1789-822F-00E61949FB1E</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="F329E336-1E38-2771-1F03-8F5D33F6880D">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>5E75976A-7E83-F454-A086-71CE21A07992</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="A49713D2-238B-1841-DFD1-C374935E58F0">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>2D80311D-7F9D-7CBA-C93E-A2ECEED00BE3</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="64EC1867-5EE5-B6B8-90DB-1ED4CD3D0663">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>36F3B39D-49C0-5B4D-241E-52EDF522FE90</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="EDF875DD-6ED1-6D7C-BDC6-4557F381CF7C">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>96E38D19-B09E-90BD-C069-CB42E7A2B1B4</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="CE64EA85-2516-EBB6-19E1-867DDFDF6B3C">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>EDBB645C-1E67-36B1-E24A-5A47519B7409</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="3C7441EB-5C22-4056-95FF-0F5118E52E34">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>88448793-2DBB-E3A6-704A-359D1CCEFC73</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E6806E40-DC20-245F-6612-A7FE13346289">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>9EDDAAED-01B6-99C9-9333-EEBB12914B35</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="9201D064-718B-1C18-9F19-EE05BB9AB52D">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>87F041CB-A1F7-D72F-F278-1DB38BDA62F0</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="38C1F481-331B-296F-F4EF-93D7E15422CC">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>A94A581E-D366-34F3-322E-23710B04AF75</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="D2896012-4BA7-DD7D-39C6-C4C416BCA4BF">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>62BE4DA8-F733-2E45-8923-3E2F74185651</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="2285DB87-9E39-9422-9A07-6C718B992198">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>2CA971F4-BBA6-2C7B-4333-CE68B0727B39</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30C2E66A-5559-0A9B-2272-E4F58D783390" referredColumn="C4BAB91F-95A8-A9CB-56DD-F137664612C6"/>
+</associations>
+</Column>
+<Column name="SIM_dept_dept_id1" id="32DB8951-023D-C048-E000-835058D0C6E1">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>71F0BD9E-2E53-C3D3-3E7B-3F670F51967B</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A80DD93-F214-94ED-FF1E-D77EE71497DE" referredColumn="C4BAB91F-95A8-A9CB-56DD-F137664612C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BB0DB76-B5E5-464D-8D74-3B2CEADE1D14" name="SIM_Person_PK">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>A2E4B304-BEFF-C0F6-A426-5BA05374CC7A</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67913C6A-B86A-00C7-832E-F4EE5630A064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB9AAD55-30CE-8A59-33B4-5665C8B46FA3" name="SIM_Person__IDX">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:52 UTC</createdTime>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>09383AB1-3F2E-CE65-E12D-DB737CC535F6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="32DB8951-023D-C048-E000-835058D0C6E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D23588B-0340-E714-D4D4-6057CBD6C56F" name="SIM_Person_SIM_dept_FK">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:51 UTC</createdTime>
+<generatorID>88BBA6FC-7FD8-92F0-59F3-F784114EA380</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2285DB87-9E39-9422-9A07-6C718B992198"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C471F852-3558-AADF-8232-A045016B9BA2" name="SIM_Person_SIM_dept_FKv1">
+<createdBy>kahliholmes</createdBy>
+<createdTime>2015-02-17 01:04:52 UTC</createdTime>
+<generatorID>09383AB1-3F2E-CE65-E12D-DB737CC535F6</generatorID>
+<ownerDesignName>SIM_Logical_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32DB8951-023D-C048-E000-835058D0C6E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
